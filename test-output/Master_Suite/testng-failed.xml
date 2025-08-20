@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite thread-count="2" parallel="tests" name="Failed suite [Master_Suite]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="utilites.ExtentReportManager"/>
+  </listeners>
+  <test thread-count="2" parallel="tests" name="Linux-firefox(failed)">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="firefox"/>
+    <classes>
+      <class name="test_case.TC_01_Ragistartion_test">
+        <methods>
+          <include name="verified_accontragistration"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.TC_01_Ragistartion_test -->
+      <class name="test_case.Tc002_loginTest">
+        <methods>
+          <include name="login_varification"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.Tc002_loginTest -->
+    </classes>
+  </test> <!-- Linux-firefox(failed) -->
+  <test thread-count="2" parallel="tests" name="Linux-chrome(failed)">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test_case.TC_01_Ragistartion_test">
+        <methods>
+          <include name="verified_accontragistration"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.TC_01_Ragistartion_test -->
+      <class name="test_case.Tc002_loginTest">
+        <methods>
+          <include name="login_varification"/>
+          <include name="setup"/>
+          <include name="teardown"/>
+        </methods>
+      </class> <!-- test_case.Tc002_loginTest -->
+    </classes>
+  </test> <!-- Linux-chrome(failed) -->
+</suite> <!-- Failed suite [Master_Suite] -->

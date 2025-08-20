@@ -1,0 +1,14 @@
+2025-08-20 12:11:05 INFO  TC_01_Ragistartion_test:21 - **Starting the test**
+2025-08-20 12:11:07 INFO  TC_01_Ragistartion_test:26 -  click on registration
+2025-08-20 12:11:08 INFO  TC_01_Ragistartion_test:49 -  providing cutomer details
+2025-08-20 12:11:10 INFO  TC_01_Ragistartion_test:52 - validting reagistration massage
+2025-08-20 12:11:10 INFO  TC_01_Ragistartion_test:74 - **..test finished..**
+2025-08-20 12:11:15 INFO  Tc002_loginTest:19 - **** Starting TC_002_LoginTest  ****
+2025-08-20 12:11:18 INFO  Tc002_loginTest:43 - **** Finished TC_002_LoginTest  ****
+2025-08-20 12:23:39 INFO  TC_01_Ragistartion_test:21 - **Starting the test**
+2025-08-20 12:23:41 INFO  TC_01_Ragistartion_test:26 -  click on registration
+2025-08-20 12:23:42 INFO  TC_01_Ragistartion_test:49 -  providing cutomer details
+2025-08-20 12:23:43 INFO  TC_01_Ragistartion_test:52 - validting reagistration massage
+2025-08-20 12:23:43 INFO  TC_01_Ragistartion_test:74 - **..test finished..**
+2025-08-20 12:23:47 INFO  Tc002_loginTest:19 - **** Starting TC_002_LoginTest  ****
+2025-08-20 12:23:50 INFO  Tc002_loginTest:43 - **** Finished TC_002_LoginTest  ****
