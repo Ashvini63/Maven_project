@@ -69,10 +69,10 @@ public class Test_base {
 		 return;
 		 
 		 }
-		  driver = new RemoteWebDriver(new URL("http://172.24.208.1:4444/wd/hub"),capabilites);
+		  driver = new RemoteWebDriver(new URL("http://localhost:4444/wd/hub"),capabilites);
 	} 
 		 
-		 
+		 //http://172.24.208.1:4444/wd/hub
 		 
 		 
 	//local	 

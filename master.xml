@@ -7,14 +7,24 @@
    </listeners>
   
   
- <test thread-count="5" name="Test">
+ <!--test thread-count="5" name="Test">
    
     <parameter name="os" value="windows"></parameter>
     <parameter name="browser" value="chrome"></parameter>
     <classes>
      <class name="test_case.TC_01_Ragistartion_test"/>
        <class name="test_case.Tc002_loginTest"/>
-       <!--class name="test_case.Tc_003LoginDDT"-->
+       <class name="test_case.Tc_003LoginDDT">
+    <classes>
+  </test--> 
+   <test  name="Linux-chrome">
+    <parameter name="os" value="Linux"/>
+    <parameter name="browser" value="chrome"/>
+    <classes>
+      <class name="test_case.TC_01_Ragistartion_test"/>
+      <class name="test_case.Tc002_loginTest"/>
+      <!-- <class name="test_case.Tc_003LoginDDT"/> -->
     </classes>
-  </test>  
+  </test>
+   
 </suite> <!-- Suite -->

@@ -2,7 +2,7 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-08-20T12:23:33 IST" name="Suite" finished-at="2025-08-20T12:23:50 IST" duration-ms="16794">
+  <suite started-at="2025-08-22T13:34:45 IST" name="Suite" finished-at="2025-08-22T13:35:00 IST" duration-ms="14799">
     <groups>
       <group name="Master">
         <method signature="TC_01_Ragistartion_test.verified_accontragistration()[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" name="verified_accontragistration" class="test_case.TC_01_Ragistartion_test"/>
@@ -15,13 +15,13 @@
         <method signature="TC_01_Ragistartion_test.verified_accontragistration()[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" name="verified_accontragistration" class="test_case.TC_01_Ragistartion_test"/>
       </group> <!-- sanity -->
     </groups>
-    <test started-at="2025-08-20T12:23:33 IST" name="Test" finished-at="2025-08-20T12:23:50 IST" duration-ms="16794">
+    <test started-at="2025-08-22T13:34:45 IST" name="Linux-chrome" finished-at="2025-08-22T13:35:00 IST" duration-ms="14799">
       <class name="test_case.TC_01_Ragistartion_test">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" started-at="2025-08-20T12:23:34 IST" name="setup" finished-at="2025-08-20T12:23:39 IST" duration-ms="5624" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" started-at="2025-08-22T13:34:46 IST" name="setup" finished-at="2025-08-22T13:34:50 IST" duration-ms="3969" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
             <param index="1">
@@ -33,21 +33,21 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="verified_accontragistration()[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" started-at="2025-08-20T12:23:39 IST" name="verified_accontragistration" finished-at="2025-08-20T12:23:43 IST" duration-ms="4235" status="PASS">
+        <test-method signature="verified_accontragistration()[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" started-at="2025-08-22T13:34:50 IST" name="verified_accontragistration" finished-at="2025-08-22T13:34:54 IST" duration-ms="4185" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verified_accontragistration -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" started-at="2025-08-20T12:23:43 IST" name="teardown" finished-at="2025-08-20T12:23:44 IST" duration-ms="351" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_case.TC_01_Ragistartion_test@4f0100a7]" started-at="2025-08-22T13:34:54 IST" name="teardown" finished-at="2025-08-22T13:34:54 IST" duration-ms="165" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test_case.TC_01_Ragistartion_test -->
       <class name="test_case.Tc002_loginTest">
-        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:test_case.Tc002_loginTest@673be18f]" started-at="2025-08-20T12:23:44 IST" name="setup" finished-at="2025-08-20T12:23:47 IST" duration-ms="2875" status="PASS">
+        <test-method is-config="true" signature="setup(java.lang.String,java.lang.String)[pri:0, instance:test_case.Tc002_loginTest@673be18f]" started-at="2025-08-22T13:34:54 IST" name="setup" finished-at="2025-08-22T13:34:57 IST" duration-ms="2858" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[windows]]>
+                <![CDATA[Linux]]>
               </value>
             </param>
             <param index="1">
@@ -59,15 +59,15 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="login_varification()[pri:0, instance:test_case.Tc002_loginTest@673be18f]" started-at="2025-08-20T12:23:47 IST" name="login_varification" finished-at="2025-08-20T12:23:50 IST" duration-ms="2798" status="PASS">
+        <test-method signature="login_varification()[pri:0, instance:test_case.Tc002_loginTest@673be18f]" started-at="2025-08-22T13:34:57 IST" name="login_varification" finished-at="2025-08-22T13:35:00 IST" duration-ms="2900" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- login_varification -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:test_case.Tc002_loginTest@673be18f]" started-at="2025-08-20T12:23:50 IST" name="teardown" finished-at="2025-08-20T12:23:50 IST" duration-ms="307" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:test_case.Tc002_loginTest@673be18f]" started-at="2025-08-22T13:35:00 IST" name="teardown" finished-at="2025-08-22T13:35:00 IST" duration-ms="149" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- test_case.Tc002_loginTest -->
-    </test> <!-- Test -->
+    </test> <!-- Linux-chrome -->
   </suite> <!-- Suite -->
 </testng-results>
